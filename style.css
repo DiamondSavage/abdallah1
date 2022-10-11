@@ -1148,3 +1148,7 @@ footer .copyright-text
 .header-social{
     position: fixed;
     }
+
+    .contact-item a{
+        color: #646f87;
+    }
