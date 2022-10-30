@@ -1119,7 +1119,7 @@ footer .copyright-text
 {
     .hmm{
         width: 100%;
-        margin: auto;
+        margin-right: 0;
     }
     .service-section .service-item,
     .portfolio .portfolio-item,
