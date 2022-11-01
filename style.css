@@ -386,6 +386,10 @@ img
     left: 0;
     z-index: -1;
 }
+@media (max-width: 767px){
+    .about-shape{
+    display: none;}
+}
 .about-section .about-image .img-box .about-shape::before
 {
     position: absolute;
