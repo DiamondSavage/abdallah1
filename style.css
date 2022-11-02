@@ -1197,11 +1197,11 @@ footer .copyright-text
         position: absolute;
         bottom: 0;
         width: 100%;
-        background-color: #e74c3c;
+        background-color: #00a78e;
         padding: 10px 0;
         color: #f9d6d2;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        border: 1px solid #e64533;
+        border: 1px solid #00a78e;
         user-select: none;
         transform: perspective(500px) rotateY(-90deg);
         transform-origin: right;
@@ -1249,7 +1249,7 @@ footer .copyright-text
     }
     .image-card ul li i{
         font-size: 28px;
-        color: tomato;
+        color: #00a78e;
         background-color: rgba(255, 255, 255, 0);
     }
     ul li span{
@@ -1258,7 +1258,7 @@ footer .copyright-text
         font-size: 14px;
         text-transform: uppercase;
         background: #333;
-        color: tomato;
+        color: #00a78e;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         padding: 0 10px;
         opacity: 0;
@@ -1281,4 +1281,34 @@ footer .copyright-text
     .image-card{
         margin-top: 0;
     }
+}
+.icon-arrow{
+    width: 100px;
+    height: 4px;
+    background-color: #000;
+    position: relative;
+    border-radius: 4px;
+    margin: auto;
+}
+.icon-arrow::after{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    background-color: #000;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -6px;
+    bottom: 13px;
+}
+.icon-arrow::before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    background-color: #000;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: -6px;
+    bottom: -13px;
 }
