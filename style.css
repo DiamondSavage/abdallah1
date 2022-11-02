@@ -1210,6 +1210,7 @@ footer .copyright-text
     }
     .image-card:hover h2{
         transform: perspective(500px) rotateY(0deg);
+        text-align: center;
     }
     .image-card ul{
         position: absolute;
