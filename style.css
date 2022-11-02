@@ -1206,6 +1206,7 @@ footer .copyright-text
         transform: perspective(500px) rotateY(-90deg);
         transform-origin: right;
         transition: all .5s;
+        text-align: center;
     }
     .image-card:hover h2{
         transform: perspective(500px) rotateY(0deg);
