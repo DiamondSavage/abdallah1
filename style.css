@@ -1272,6 +1272,9 @@ footer .copyright-text
         opacity: 1;
         pointer-events: auto;
     }
+    .holder{
+        display: none;
+    }
 @media (max-width: 1100px){
     .hmm{
         display: none;
@@ -1329,5 +1332,12 @@ footer .copyright-text
     .icon-arrow h3{
         padding-top: 20px;
     }
-
+}
+@media (max-width: 400px){
+    .icon-arrow{
+        display: none;
+    }
+    .holder{
+        display: block;
+    }
 }
