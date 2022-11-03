@@ -1196,6 +1196,7 @@ footer .copyright-text
     .image-card h2{
         position: absolute;
         bottom: 0;
+        text-align: center;
         width: 100%;
         background-color: #00a78e;
         padding: 10px 0;
@@ -1206,11 +1207,9 @@ footer .copyright-text
         transform: perspective(500px) rotateY(-90deg);
         transform-origin: right;
         transition: all .5s;
-        text-align: center;
     }
     .image-card:hover h2{
         transform: perspective(500px) rotateY(0deg);
-        text-align: center;
     }
     .image-card ul{
         position: absolute;
@@ -1279,9 +1278,11 @@ footer .copyright-text
     }
     .about-image{
         margin-top: 0;
+        right: 0;
     }
     .image-card{
         margin-top: 0;
+        right: 0;
     }
 }
 .icon-arrow{
@@ -1313,4 +1314,20 @@ footer .copyright-text
     position: absolute;
     right: -6px;
     bottom: -13px;
+}
+@media (max-width: 1100px){
+    .icon-arrow{
+        width: 30px;
+        right: auto;
+    }
+    .icon-arrow::after{
+        width: 30px;
+    }
+    .icon-arrow::before{
+        width: 30px;
+    }
+    .icon-arrow h3{
+        padding-top: 20px;
+    }
+
 }
